@@ -20,7 +20,7 @@ int main(int argc, char* argv[])
     for (int count_row = 0; count_row < n; count_row++)
     {
         for (int count_column = 0; count_column < m; count_column++)
-            cout << setw(m) <<setprecision(n) << ptrarray[count_row][count_column] << "   ";
+            cout << setw(m) << ptrarray[count_row][count_column] << "   ";
         cout << endl;
     }
     for (int count_row = 0; count_row < n; count_row++)
