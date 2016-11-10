@@ -17,7 +17,6 @@ int main(int argc, char* argv[])
     for (int count_row = 0; count_row < n; count_row++)
         for (int count_column = 0; count_column < m; count_column++)
             ptrarray[count_row][count_column] = rand() % 10 + 1;
-    // вывод массива
     for (int count_row = 0; count_row < n; count_row++)
     {
         for (int count_column = 0; count_column < m; count_column++)
