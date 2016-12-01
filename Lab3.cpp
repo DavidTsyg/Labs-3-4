@@ -9,7 +9,8 @@ int main() {
     int a = 1;
     cout << "Введите номер элемента" << endl;
     cin >> n ;
-    for (unsigned int i = 2;  i <= n; i++) {
+    for (unsigned int i = 2;  i <= n; i++) 
+    {
 
         a = a_previous + a_new;
         a_previous = a_new;
